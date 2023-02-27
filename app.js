@@ -2,6 +2,7 @@ const express = require("express");
 require("dotenv").config();
 const cors = require('cors')
 const authRouter = require('./routes/auth-router')
+const userRouter = require('./routes/user-router')
 
 const { DEV_PORT } = process.env;
 
@@ -17,6 +18,7 @@ app.use(cors({
 app.use(express.json());    // This middleware parses incoming requests with JSON payloads
 
 app.use("/api/auth", authRouter)
+app.use("/api/users", userRouter)
 
 app.listen(DEV_PORT, () => {
   console.log(`Server listening on port ${DEV_PORT}`);

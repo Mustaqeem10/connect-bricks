@@ -1,0 +1,18 @@
+{
+  "firstName": "bob",
+  "lastName": "smith",
+  "email": "bob@gmail.com",
+  "password": "09427",
+  "phoneNumber": "0333-1244141",
+  "role": "buyer",
+  "isDisabled": false
+}
+{
+  "firstName": "richard",
+  "lastName": "smith",
+  "email": "richard@gmail.com",
+  "password": "09427",
+  "phoneNumber": "0333-1244141",
+  "role": "buyer",
+  "isDisabled": false
+}
